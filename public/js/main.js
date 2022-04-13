@@ -4,7 +4,8 @@ import generatePixelData from "./generatePixelData.js";
 import onHoverColorBar from "./events/onHoverColorBar.js";
 import onPixel from "./events/onPixel.js";
 
-const socket = io("ws://localhost:3000");
+const socket = io();
+// const socket = io("ws://localhost:3000"); // DEV
 
 const canvasEl = document.querySelector("canvas");
 const ctx = canvasEl.getContext("2d");
