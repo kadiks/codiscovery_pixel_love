@@ -1,0 +1,27 @@
+{
+  "name": "pixel_love",
+  "version": "1.0.0",
+  "description": "Clone of the r/place pixel war in HTML and Node.js (+socket.io)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadiks/codiscovery_pixel_love.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kadiks/codiscovery_pixel_love/issues"
+  },
+  "homepage": "https://github.com/kadiks/codiscovery_pixel_love#readme",
+  "dependencies": {
+    "fastify": "^3.28.0",
+    "fastify-static": "^4.6.1",
+    "socket.io": "^4.4.1"
+  }
+}
