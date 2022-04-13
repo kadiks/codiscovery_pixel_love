@@ -21,6 +21,7 @@
   "homepage": "https://github.com/kadiks/codiscovery_pixel_love#readme",
   "dependencies": {
     "fastify": "^3.28.0",
+    "fastify-socket.io": "^3.0.0",
     "fastify-static": "^4.6.1",
     "socket.io": "^4.4.1"
   }

@@ -1,3 +1,16 @@
 body {
-  background-color: indianred;
+  margin: 0;
+  background-color: #a9def9;
+  font-family: Montserrat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #f694c1;
+  font-weight: 600;
 }
